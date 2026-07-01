@@ -1,0 +1,136 @@
+/* frontend/src/index.css */
+
+@import 'tailwindcss';
+
+/* ✅ Import da fonte (já está no config, mas pode ficar aqui) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ============================================
+   ALTO CONTRASTE - TEMA COMPLETO
+   Isso NÃO vai para o Tailwind porque é um TEMA
+   ============================================ */
+
+.high-contrast {
+  filter: none !important;
+}
+
+/* --- FUNDO --- */
+.high-contrast body {
+  background-color: #121214 !important;
+}
+
+.high-contrast .bg-gray-50,
+.high-contrast .bg-slate-50,
+.high-contrast .bg-white {
+  background-color: #1e1e20 !important;
+}
+
+/* --- TEXTOS --- */
+.high-contrast .text-white {
+  color: #ffffff !important;
+}
+
+.high-contrast .text-gray-600,
+.high-contrast .text-gray-700,
+.high-contrast .text-gray-800 {
+  color: #f0f0f0 !important;
+}
+
+.high-contrast .text-green-600 {
+  color: #7ddfa0 !important;
+}
+
+/* --- BOTÕES --- */
+.high-contrast .add-button {
+  background-color: #d63384 !important;
+}
+
+.high-contrast .add-button:hover {
+  background-color: #b82a6e !important;
+}
+
+.high-contrast .add-button-icon {
+  filter: brightness(0) saturate(100%) invert(100%) !important;
+}
+
+/* --- HEADER --- */
+.high-contrast .header-unimed {
+  background: #2d2d30 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* --- BARRA DE ACESSIBILIDADE --- */
+.high-contrast .accessibility-bar {
+  background-color: #d63384 !important;
+}
+
+/* --- BORDAS --- */
+.high-contrast .border {
+  border-color: #666666 !important;
+}
+
+.high-contrast .border-gray-200,
+.high-contrast .border-slate-200 {
+  border-color: #555555 !important;
+}
+
+/* --- INPUTS --- */
+.high-contrast input,
+.high-contrast textarea,
+.high-contrast select {
+  background-color: #1a1a1d !important;
+  color: #f0f0f0 !important;
+  border-color: #666666 !important;
+}
+
+.high-contrast input::placeholder,
+.high-contrast textarea::placeholder {
+  color: #999999 !important;
+}
+
+.high-contrast input:focus,
+.high-contrast textarea:focus,
+.high-contrast select:focus {
+  border-color: #d63384 !important;
+  box-shadow: 0 0 0 3px rgba(214, 51, 132, 0.2) !important;
+  outline: none !important;
+}
+
+/* --- SCROLLBAR --- */
+.high-contrast ::-webkit-scrollbar-track {
+  background: #1a1a1d !important;
+}
+
+.high-contrast ::-webkit-scrollbar-thumb {
+  background: #555555 !important;
+  border-radius: 4px !important;
+}
+
+.high-contrast ::-webkit-scrollbar-thumb:hover {
+  background: #888888 !important;
+}
+
+/* --- SCROLLBAR GLOBAL --- */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888888;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c4c4c4 #f1f1f1;
+}

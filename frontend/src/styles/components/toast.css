@@ -1,0 +1,16 @@
+/* frontend/src/styles/components/toast.css */
+
+.toast-success {
+  background-color: #1a2a1a !important;
+  color: #7ddfa0 !important;
+}
+
+.toast-error {
+  background-color: #2a1a1a !important;
+  color: #ff6b6b !important;
+}
+
+.toast-primary {
+  background-color: #2a1a2a !important;
+  color: #f06292 !important;
+}

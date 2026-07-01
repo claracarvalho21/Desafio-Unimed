@@ -1,0 +1,22 @@
+/* frontend/src/styles/components/forms.css */
+
+input,
+textarea,
+select {
+  background-color: #1a1a1d !important;
+  color: #f0f0f0 !important;
+  border-color: #666666 !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999999 !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #d63384 !important;
+  box-shadow: 0 0 0 3px rgba(214, 51, 132, 0.2) !important;
+  outline: none !important;
+}

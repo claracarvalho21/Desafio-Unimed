@@ -1,0 +1,29 @@
+/* frontend/src/styles/components/table.css */
+
+.table-row-active {
+  background-color: #1a1a1d !important;
+}
+
+.table-row-active:hover {
+  background-color: #2a2a2d !important;
+}
+
+.table-row-inactive {
+  background-color: #0d0d0f !important;
+}
+
+.table-row-inactive:hover {
+  background-color: #1a1a1d !important;
+}
+
+.bg-table-row-1 {
+  background-color: #1a1a1d !important;
+}
+
+.bg-table-row-2 {
+  background-color: #252528 !important;
+}
+
+.hover-table-row:hover {
+  background-color: #2a2a2d !important;
+}

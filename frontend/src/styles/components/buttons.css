@@ -1,0 +1,45 @@
+/* frontend/src/styles/components/buttons.css */
+
+/* Botões */
+.unimed-button {
+  background-color: #666666 !important;
+  color: #ffffff !important;
+}
+
+.unimed-button:hover {
+  background-color: #888888 !important;
+}
+
+/* Botão Adicionar */
+.add-button {
+  background-color: #d63384 !important;
+}
+
+.add-button:hover {
+  background-color: #b82a6e !important;
+}
+
+.add-button-icon {
+  filter: brightness(0) saturate(100%) invert(100%) !important;
+}
+
+/* Botões do Modal */
+.btn-primary-modal {
+  background-color: #666666 !important;
+  border-color: #888888 !important;
+}
+
+.btn-primary-modal:hover {
+  background-color: #888888 !important;
+  border-color: #aaaaaa !important;
+}
+
+.btn-outline-modal {
+  border-color: #888888 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-modal:hover {
+  background-color: #444444 !important;
+  border-color: #aaaaaa !important;
+}

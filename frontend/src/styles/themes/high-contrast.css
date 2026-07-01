@@ -1,0 +1,266 @@
+/* frontend/src/styles/themes/high-contrast.css */
+
+.high-contrast {
+  filter: none !important;
+}
+
+/* --- FUNDO --- */
+.high-contrast body {
+  background-color: #121214 !important;
+}
+
+.high-contrast .bg-gray-50,
+.high-contrast .bg-slate-50,
+.high-contrast .bg-white {
+  background-color: #1e1e20 !important;
+}
+
+.high-contrast .min-h-screen {
+  background-color: #121214 !important;
+}
+
+/* --- TEXTOS --- */
+.high-contrast .text-white {
+  color: #ffffff !important;
+}
+
+.high-contrast .text-gray-600,
+.high-contrast .text-gray-700,
+.high-contrast .text-gray-800 {
+  color: #f0f0f0 !important;
+}
+
+.high-contrast .text-green-600 {
+  color: #7ddfa0 !important;
+}
+
+.high-contrast .text-gray-400 {
+  color: #b0b0b0 !important;
+}
+
+.high-contrast .text-yellow-600 {
+  color: #ffd700 !important;
+}
+
+/* --- BOTÕES --- */
+.high-contrast .add-button {
+  background-color: #d63384 !important;
+}
+
+.high-contrast .add-button:hover {
+  background-color: #b82a6e !important;
+}
+
+.high-contrast .add-button-icon {
+  filter: brightness(0) saturate(100%) invert(100%) !important;
+}
+
+/* --- HEADER --- */
+.high-contrast .header-unimed {
+  background: #2d2d30 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* --- BARRA DE ACESSIBILIDADE --- */
+.high-contrast .accessibility-bar {
+  background-color: #d63384 !important;
+}
+
+/* --- BADGES --- */
+.high-contrast .badge-green {
+  background-color: #1a2a1a !important;
+  color: #7ddfa0 !important;
+}
+
+.high-contrast .badge-yellow {
+  background-color: #2a2a1a !important;
+  color: #ffd700 !important;
+}
+
+.high-contrast .badge-gray {
+  background-color: #2a2a2a !important;
+  color: #d0d0d0 !important;
+}
+
+.high-contrast .badge-red {
+  background-color: #2a1a1a !important;
+  color: #ff6b6b !important;
+}
+
+/* --- BORDAS --- */
+.high-contrast .border {
+  border-color: #666666 !important;
+}
+
+.high-contrast .border-gray-200,
+.high-contrast .border-slate-200 {
+  border-color: #555555 !important;
+}
+
+/* --- DIVISORES --- */
+.high-contrast .border-b {
+  border-bottom-color: #444444 !important;
+}
+
+.high-contrast .border-t {
+  border-top-color: #444444 !important;
+}
+
+/* --- LINKS E BOTÕES NO HOVER --- */
+.high-contrast a:hover,
+.high-contrast button:hover {
+  color: #ffd700 !important;
+}
+
+/* --- INPUTS --- */
+.high-contrast input,
+.high-contrast textarea,
+.high-contrast select {
+  background-color: #1a1a1d !important;
+  color: #f0f0f0 !important;
+  border-color: #666666 !important;
+}
+
+.high-contrast input::placeholder,
+.high-contrast textarea::placeholder {
+  color: #999999 !important;
+}
+
+.high-contrast input:focus,
+.high-contrast textarea:focus,
+.high-contrast select:focus {
+  border-color: #d63384 !important;
+  box-shadow: 0 0 0 3px rgba(214, 51, 132, 0.2) !important;
+  outline: none !important;
+}
+
+/* --- BULK ACTIONS --- */
+.high-contrast .bulk-actions {
+  background-color: #2a1a2a !important;
+  border-color: #d63384 !important;
+}
+
+.high-contrast .bulk-actions .selected-count {
+  color: #f06292 !important;
+}
+
+/* --- FAVORITOS --- */
+.high-contrast .favorite-active {
+  color: #d63384 !important;
+}
+
+.high-contrast .favorite-inactive {
+  color: #666666 !important;
+}
+
+.high-contrast .favorite-active:hover,
+.high-contrast .favorite-inactive:hover {
+  color: #ffd700 !important;
+}
+
+/* --- MODAL --- */
+.high-contrast .modal-content {
+  background-color: #1a1a1d !important;
+}
+
+.high-contrast .modal-header {
+  border-bottom-color: #444444 !important;
+}
+
+.high-contrast .modal-footer {
+  border-top-color: #444444 !important;
+  background-color: #1a1a1d !important;
+}
+
+/* --- SCROLLBAR --- */
+.high-contrast ::-webkit-scrollbar-track {
+  background: #1a1a1d !important;
+}
+
+.high-contrast ::-webkit-scrollbar-thumb {
+  background: #555555 !important;
+  border-radius: 4px !important;
+}
+
+.high-contrast ::-webkit-scrollbar-thumb:hover {
+  background: #888888 !important;
+}
+
+/* --- TOAST --- */
+.high-contrast .toast-success {
+  background-color: #1a2a1a !important;
+  color: #7ddfa0 !important;
+}
+
+.high-contrast .toast-error {
+  background-color: #2a1a1a !important;
+  color: #ff6b6b !important;
+}
+
+.high-contrast .toast-primary {
+  background-color: #2a1a2a !important;
+  color: #f06292 !important;
+}
+
+/* --- SEARCH BAR --- */
+.high-contrast .search-bar {
+  background-color: #1a1a1d !important;
+  border-color: #444444 !important;
+}
+
+.high-contrast .search-bar:focus-within {
+  border-color: #d63384 !important;
+}
+
+/* --- ICONES --- */
+.high-contrast .icon-primary {
+  color: #f06292 !important;
+}
+
+.high-contrast .icon-secondary {
+  color: #888888 !important;
+}
+
+.high-contrast .icon-success {
+  color: #7ddfa0 !important;
+}
+
+/* --- TABELA --- */
+.high-contrast .table-row-active {
+  background-color: #1a1a1d !important;
+}
+
+.high-contrast .table-row-active:hover {
+  background-color: #2a2a2d !important;
+}
+
+.high-contrast .table-row-inactive {
+  background-color: #0d0d0f !important;
+}
+
+.high-contrast .table-row-inactive:hover {
+  background-color: #1a1a1d !important;
+}
+
+.high-contrast .bg-table-row-1 {
+  background-color: #1a1a1d !important;
+}
+
+.high-contrast .bg-table-row-2 {
+  background-color: #252528 !important;
+}
+
+.high-contrast .hover-table-row:hover {
+  background-color: #2a2a2d !important;
+}
+
+/* --- TOGGLE SWITCH --- */
+.high-contrast .toggle-active {
+  background-color: #d63384 !important;
+  border-color: #d63384 !important;
+}
+
+.high-contrast .toggle-inactive {
+  background-color: #444444 !important;
+  border-color: #666666 !important;
+}
