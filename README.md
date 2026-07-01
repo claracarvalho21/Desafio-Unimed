@@ -1,4 +1,4 @@
-# Desafio Unimed - Sistema de Agenda de Contatos
+# Sistema de Agenda de Contatos
 
 ## Descrição
 
