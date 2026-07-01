@@ -64,18 +64,6 @@ Pages
 
 Fluxo da aplicação:
 
-```
-Page
- ↓
-Hook
- ↓
-Service
- ↓
-API
- ↓
-Backend
-```
-
 ---
 
 ## Backend
@@ -83,19 +71,6 @@ Backend
 O backend foi desenvolvido utilizando arquitetura Clean Architecture, aplicando conceitos do Domain-Driven Design (DDD) para promover baixo acoplamento, separação de responsabilidades e facilidade de manutenção.
 
 ```
-Routes
- ↓
-Controller
- ↓
-Use Case
- ↓
-Repository
- ↓
-TypeORM
- ↓
-PostgreSQL
-```
-
 Cada camada possui uma responsabilidade específica:
 
 * **Routes:** definição dos endpoints.
@@ -104,9 +79,7 @@ Cada camada possui uma responsabilidade específica:
 * **Repositories:** realizam o acesso ao banco.
 * **Entities:** representam o modelo da aplicação e o mapeamento do banco.
 * **Mappers:** convertem entidades para objetos de resposta.
-
 ---
-
 # Banco de Dados
 
 O banco de dados utilizado é o **PostgreSQL**, executado através do Docker.
@@ -118,15 +91,6 @@ O projeto utiliza **Migrations**, permitindo versionar toda a estrutura do banco
 **Fluxo do banco:**
 
 ```
-Entity
-   ↓
-TypeORM
-   ↓
-Migration
-   ↓
-PostgreSQL
-```
-
 ---
 
 # Docker
